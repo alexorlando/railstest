@@ -5,6 +5,7 @@ gem 'rb-readline', '0.4.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
+gem 'bootstrap-sass', '2.3.2.0'
 
 group :development do
   # Use sqlite3 as the database for Active Record
