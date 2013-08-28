@@ -30,6 +30,6 @@ describe "Static Pages" do
   describe "Contact page" do
     before { visit contact_path }
     it { should have_content('Contact') }
-    it {should have_title("#{base_title} | Contact") }
+    it { should have_title("#{base_title} | Contact") }
   end
 end
